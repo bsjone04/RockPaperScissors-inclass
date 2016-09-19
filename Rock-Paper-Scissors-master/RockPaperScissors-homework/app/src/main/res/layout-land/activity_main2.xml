@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRock"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/rock"
+        android:layout_weight="1"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLizard"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/lizard"
+        android:layout_weight="1"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/btnScissors"
+        android:scaleType="fitXY"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/scissors"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPaper"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/paper"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpock"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/spock"/>
+
+</LinearLayout>

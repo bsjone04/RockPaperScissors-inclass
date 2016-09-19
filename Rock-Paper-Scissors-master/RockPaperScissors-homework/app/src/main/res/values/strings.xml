@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+
+    <string name="action_help">Help</string>
+
+    <string name="title_activity_game_result">Game Result</string>
+    <string name="rules">Scissors cuts Paper covers Rock crushes Lizard poisons Spock smashes Scissors decapitates Lizard eats Paper disaproves Spock vaporizes Rock crushes Scissors</string>
+    <string name="title_activity_help">Help</string>
+    <string name="action_help_dialog">Help (Simple)</string>
+    <string name="action_game_stats">Game Statistics</string>
+    <string name="action_settings">Settings</string>
+</resources>
